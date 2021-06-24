@@ -9,7 +9,7 @@ $(document).ready(function () {
     if ($(e.target).hasClass('orbit-gizmo')) {
       // here, viewer represents the variable defined at viewer initialization
       if (viewer === null || viewer === undefined) return;
-      new Dashboard(viewer, [new BarChart('Material'), new PieChart('Material')]);
+      new Dashboard(viewer, [new BarChart('Workset'), new PieChart('Material'), new BarChart('Category'), new PieChart('Workset')]);
     }
   });
 });
