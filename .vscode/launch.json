@@ -20,7 +20,7 @@
       "env": {
         "FORGE_CLIENT_ID": "fVg5q5bjUjAAZFZFBGMZoVfGlATsTRTW",
         "FORGE_CLIENT_SECRET": "UvEec23XNge3TONv",
-        "FORGE_CALLBACK_URL": "http://localhost:3000/api/forge/callback/oauth"
+        "FORGE_CALLBACK_URL": "https://dashboardbim360.herokuapp.com/"
       }
     }
   ]
