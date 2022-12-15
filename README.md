@@ -7,12 +7,12 @@
 ## Description
 This sample demonstrates the following use cases:
 
-* Export account users, list them in table view, and render two pie charts
-* Export all users of all projects, list them in table view. Render two pie charts (TBD) 
+* Export account data, list them in table view, show 3D model, and render two pie charts
+* Export all material of all projects, list them in table view. Render two pie charts (TBD) 
 
 
 ## Thumbnail
-![thumbnail](/help/main.png) 
+![thumbnail](/help/preview1.png) 
 
 
 # Web App Setup
@@ -27,7 +27,8 @@ This sample demonstrates the following use cases:
 
 For using this sample, you need an Autodesk developer credentials. Visit the [Forge Developer Portal](https://developer.autodesk.com), sign up for an account, then [create an app](https://developer.autodesk.com/myapps/create). For this new app, use **http://localhost:3000/api/forge/callback/oauth** as Callback URL. Finally take note of the **Client ID** and **Client Secret**.
 
-
+## Thumbnail
+![thumbnail2](/help/preview3.png) 
 
 ## Running locally
 
@@ -63,6 +64,10 @@ Windows (use **Node.js command line** from Start menu)
     npm start
 
 OR, set enviroment variables of [launch.json](/.vscode/launch.json) for debugging.
+
+
+## Thumbnail - List of projects generated
+![thumbnail](/help/preview2.png) 
 
 
 ## Use Cases
